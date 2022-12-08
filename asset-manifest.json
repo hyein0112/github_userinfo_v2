@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/perfect-experience-of-flex/static/css/main.e6c13ad2.css",
+    "main.js": "/perfect-experience-of-flex/static/js/main.5422f80c.js",
+    "index.html": "/perfect-experience-of-flex/index.html",
+    "main.e6c13ad2.css.map": "/perfect-experience-of-flex/static/css/main.e6c13ad2.css.map",
+    "main.5422f80c.js.map": "/perfect-experience-of-flex/static/js/main.5422f80c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.5422f80c.js"
+  ]
+}

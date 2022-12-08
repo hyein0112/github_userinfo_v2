@@ -1,4 +1,4 @@
-import * as C from '../component';
+import * as C from '../components';
 
 function Main() {
   return (

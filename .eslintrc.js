@@ -25,6 +25,7 @@ module.exports = {
     ],
     'jsx-a11y/no-noninteractive-element-interactions': 0,
     '@typescript-eslint/explicit-module-boundary-types': 0,
+    'react/no-unknown-property': ['error', { ignore: ['css'] }],
   },
   settings: {
     'import/resolver': {

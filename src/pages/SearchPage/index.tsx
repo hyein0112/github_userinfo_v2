@@ -3,9 +3,6 @@ import * as C from '../../components';
 import * as S from './style';
 
 function Search({ userInfo, setUserInfo, setting }: any) {
-  useEffect(() => {
-    console.log(setUserInfo);
-  }, [userInfo]);
   return (
     <S.mainBox>
       <div>

@@ -6,9 +6,6 @@ import * as S from './style';
 function Main() {
   const [userInfo, setUserInfo] = useState({});
   const [setting, setSetting] = useState(false);
-  useEffect(() => {
-    console.log(userInfo);
-  }, [userInfo]);
 
   return setting ? (
     <Search

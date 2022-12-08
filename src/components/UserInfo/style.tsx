@@ -4,6 +4,7 @@ export const mainBox = styled.div`
   width: 700px;
   height: 600px;
   display: flex;
+  margin-bottom: 50px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -11,7 +12,7 @@ export const mainBox = styled.div`
   font-size: 1.3rem;
   font-weight: 500;
   box-sizing: border-box;
-  border-radius: 10%;
+  border-radius: 50px;
   box-shadow: inset 0 0 20px 5px #d5d5d5;
 
   @media screen and (max-width: 750px) {

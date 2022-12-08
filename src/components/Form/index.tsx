@@ -9,7 +9,6 @@ const From = ({ setUserInfo, setSetting }: any) => {
       const res = data.data;
       setUserInfo({
         img: res.avatar_url,
-        userId: res.login,
         name: res.name,
         bio: res.bio,
         repos: res.public_repos,

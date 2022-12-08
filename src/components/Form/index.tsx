@@ -1,18 +1,13 @@
 import * as S from './style';
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import axios from 'axios';
-const From = () => {
+const From = ({ setUserInfo, setSetting }: any) => {
   const [user, setUser] = useState<string>('');
-  const [info, setInfo] = useState({});
-
-  useEffect(() => {
-    console.log(info);
-  }, [info]);
 
   const getData = (url: string) => {
     axios.get(url).then((data: any) => {
       const res = data.data;
-      setInfo({
+      setUserInfo({
         img: res.avatar_url,
         userId: res.login,
         name: res.name,
@@ -22,6 +17,8 @@ const From = () => {
         following: res.following,
         url: res.html_url,
       });
+      setSetting(() => true);
+      setUser('');
     });
   };
 
@@ -32,6 +29,7 @@ const From = () => {
     const url = `https://api.github.com/users/${userName}`;
 
     getData(url);
+    setSetting(true);
   };
 
   const onChange = (e: React.FormEvent<HTMLInputElement>) => {

@@ -5,7 +5,7 @@ export const searchBox = styled.form`
   height: 60px;
   display: flex;
   justify-content: center;
-  margin: 0 auto;
+  margin: 0 auto 20px auto;
 
   @media screen and (max-width: 700px) {
     width: 85.71vw;
